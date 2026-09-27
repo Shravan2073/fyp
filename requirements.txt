@@ -1,0 +1,9 @@
+torch>=2.3
+torchvision>=0.18
+transformers>=4.40
+pandas
+numpy
+scikit-learn
+pillow
+requests
+tqdm

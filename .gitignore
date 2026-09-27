@@ -1,0 +1,50 @@
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+
+# Test, type-checking, and coverage caches
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+coverage.xml
+htmlcov/
+
+# Jupyter and local editor files
+.ipynb_checkpoints/
+.vscode/
+.idea/
+
+# Downloaded datasets and generated feature files
+data/
+datasets/
+features/
+*.npy
+*.npz
+*.pkl
+*.pickle
+
+# Training outputs and experiment logs
+checkpoints/
+logs/
+runs/
+wandb/
+*.pt
+*.pth
+*.ckpt
+
+# Generated benchmark outputs
+benchmark_results/
+
+# Local environment and OS files
+.env
+.env.*
+!.env.example
+.DS_Store
+Thumbs.db
